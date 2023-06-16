@@ -11,6 +11,7 @@ pipeline {
             stage('source') {
             steps {
                 git 'https://github.com/sandeepkumar1701/aws_codebuild_codedeploy_nodeJs_demo.git'
+                sh 'cat index.js'
             }
         }
         
